@@ -28,7 +28,7 @@
         if (value > int.MaxValue || value < int.MinValue)
         {
             Console.WriteLine("Значение не может быть преобразовано в int");
-            return 0; // или любое другое значение по умолчанию
+            return 0; 
         }
         return (int)value;
     }
